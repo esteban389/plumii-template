@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:fix": "esling --fix",
+    "types:check": "tsc --project tsconfig.json --pretty --noEmit"
   },
   "dependencies": {
     "react": "19.1.0",
@@ -22,6 +24,11 @@
     "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "@antfu/eslint-config": "^5.2.1",
+    "eslint-plugin-format": "^1.0.1",
+    "@eslint-react/eslint-plugin": "^1.52.3",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20"
   }
 }
