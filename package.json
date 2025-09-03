@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "esling --fix",
-    "types:check": "tsc --project tsconfig.json --pretty --noEmit"
+    "types:check": "tsc --project tsconfig.json --pretty --noEmit",
+    "generate": "plop"
   },
   "dependencies": {
     "react": "19.1.0",

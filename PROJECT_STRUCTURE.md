@@ -37,7 +37,7 @@ The project follows a layered architecture pattern with clear separation of conc
   - `layout.tsx` – Root layout with font configuration and metadata  
   - `page.tsx` – Home page component  
   - `favicon.ico` – Application favicon  
-- **Key Features**: Uses Geist fonts, Tailwind CSS, and follows Next.js 13+ App Router conventions  
+- **Key Features**: Uses Geist fonts, Tailwind CSS, and follows Next.js 15+ App Router conventions  
 
 ---
 
