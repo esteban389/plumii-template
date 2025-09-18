@@ -9,7 +9,8 @@
     "check:lint": "eslint",
     "fix:lint": "eslint --fix",
     "check:types": "tsc --project tsconfig.json --pretty --noEmit",
-    "generate": "plop"
+    "generate": "plop",
+    "prepare": "npx husky-init && husky install"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.89.0",
@@ -35,6 +36,7 @@
     "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "husky": "^8.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
