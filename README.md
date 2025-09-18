@@ -5,11 +5,13 @@ A modern Next.js application built with TypeScript, featuring a comprehensive UI
 ## 🚀 Tech Stack
 
 ### Core Framework
+
 - **[Next.js 15.5.3](https://nextjs.org/)** - React framework with App Router
 - **[React 19.1.1](https://react.dev/)** - UI library
 - **[TypeScript 5](https://www.typescriptlang.org/)** - Type-safe JavaScript
 
 ### UI & Styling
+
 - **[Tailwind CSS 4](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[IntentUI](https://intentui.com/)** - Modern React component library
 - **[React Aria Components](https://react-spectrum.adobe.com/react-aria-components/)** - Accessible UI primitives
@@ -17,11 +19,13 @@ A modern Next.js application built with TypeScript, featuring a comprehensive UI
 - **[Motion](https://motion.dev/)** - Animation library for React
 
 ### State Management & Data Fetching
+
 - **[TanStack Query](https://tanstack.com/query/)** - Powerful data synchronization for React
 - **[TanStack Form](https://tanstack.com/form/)** - Type-safe form state management
 - **[Zod](https://zod.dev/)** - TypeScript-first schema validation
 
 ### Development Tools
+
 - **[ESLint](https://eslint.org/)** - Code linting with Antfu's config
 - **[Husky](https://typicode.github.io/husky/)** - Git hooks for code quality
 - **[Turbopack](https://turbo.build/pack)** - Fast bundler for development
@@ -29,6 +33,7 @@ A modern Next.js application built with TypeScript, featuring a comprehensive UI
 ## 📦 Key Dependencies
 
 ### UI Components & Styling
+
 ```json
 {
   "@intentui/icons": "^1.11.0",
@@ -41,6 +46,7 @@ A modern Next.js application built with TypeScript, featuring a comprehensive UI
 ```
 
 ### Data & Forms
+
 ```json
 {
   "@tanstack/react-query": "^5.89.0",
@@ -50,6 +56,7 @@ A modern Next.js application built with TypeScript, featuring a comprehensive UI
 ```
 
 ### Animation & Icons
+
 ```json
 {
   "motion": "^12.23.15",
@@ -60,17 +67,20 @@ A modern Next.js application built with TypeScript, featuring a comprehensive UI
 ## 🛠️ Development
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - npm or yarn
 
 ### Getting Started
 
 1. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 2. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -108,6 +118,7 @@ src/
 ## 🎨 UI Components
 
 This project uses **IntentUI** as the primary component library, which provides:
+
 - Accessible components built on React Aria
 - Consistent design system
 - TypeScript support
