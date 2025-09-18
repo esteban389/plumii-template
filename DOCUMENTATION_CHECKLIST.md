@@ -1,7 +1,7 @@
 # 🗂️ Documentation Checklist
 
-This checklist outlines all the documentation files recommended for this project.  
-Each entry includes its **purpose** and **suggested contents**.  
+This checklist outlines all the documentation files recommended for this project.
+Each entry includes its **purpose** and **suggested contents**.
 Check off items as they are completed.
 
 ---

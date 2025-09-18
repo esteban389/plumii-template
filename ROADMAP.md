@@ -5,109 +5,130 @@ This roadmap outlines the planned iterations for building and evolving the start
 ---
 
 ## ✅ Completed Iterations
-- [x] **Base setup**: Next.js + Tailwind CSS  
-- [x] **Initial linting**: ESLint with minimal rules  
-- [x] **Project structure**: Organized folders (`app/`, `components/`, `features/`, `lib/`, `utils/`, etc.)  
+
+- [x] **Base setup**: Next.js + Tailwind CSS
+- [x] **Initial linting**: ESLint with minimal rules
+- [x] **Project structure**: Organized folders (`app/`, `components/`, `features/`, `lib/`, `utils/`, etc.)
 
 ---
 
 ## 📖 Iteration 1 — Documentation & Guidelines
-**Goal**: Define coding philosophy and shared practices before scaling.  
-- [ ] Finalize **guidelines docs**:  
-  - Principles, coding standards, forms, state management, error handling, styling/UX, accessibility, commits/PRs, testing (placeholder), documentation standards, security  
-- [ ] Add **README.md** with quickstart, stack, structure overview  
-- [ ] Add **CONTRIBUTING.md** (workflow, branching, PR expectations)  
-- [ ] Add **ONBOARDING.md** for new developers  
+
+**Goal**: Define coding philosophy and shared practices before scaling.
+
+- [ ] Finalize **guidelines docs**:
+  - Principles, coding standards, forms, state management, error handling, styling/UX, accessibility, commits/PRs, testing (placeholder), documentation standards, security
+- [ ] Add **README.md** with quickstart, stack, structure overview
+- [ ] Add **CONTRIBUTING.md** (workflow, branching, PR expectations)
+- [ ] Add **ONBOARDING.md** for new developers
 
 ---
 
 ## 🧩 Iteration 2 — Core Libraries
-**Goal**: Add core dependencies for real development.  
-- [ ] **Validation**: Zod  
-- [ ] **Forms**: React Hook Form  
-- [ ] **Data fetching**: React Query (+ setup query client/provider)  
-- [ ] **State management**: Zustand  
-- [ ] **Accessibility/UI primitives**: Radix, React Aria  
-- [ ] **Styling helpers**: Tailwind Variants  
-- [ ] **Error handling**: React Error Boundary  
+
+**Goal**: Add core dependencies for real development.
+
+- [ ] **Validation**: Zod
+- [ ] **Forms**: React Hook Form
+- [ ] **Data fetching**: React Query (+ setup query client/provider)
+- [ ] **State management**: Zustand
+- [ ] **Accessibility/UI primitives**: Radix, React Aria
+- [ ] **Styling helpers**: Tailwind Variants
+- [ ] **Error handling**: React Error Boundary
 
 ---
 
 ## 🛠️ Iteration 3 — Dev Tooling & Quality
-**Goal**: Ensure developer productivity, consistency, and safety.  
-- [ ] **Codegen / scaffolding**: Plop.js (with templates)  
-- [ ] **Static analysis**: Dependency Cruiser, Madge  
-- [ ] **Git hooks**: Husky + lint-staged  
-- [ ] **Commit conventions**: Commitlint + Changesets  
-- [ ] **Environment safety**: t3-env  
-- [ ] **Type enforcement**: Typestat  
-- [ ] **Logging utilities**: Logtape  
-- [ ] **SonarQube** (optional)  
+
+**Goal**: Ensure developer productivity, consistency, and safety.
+
+- [ ] **Codegen / scaffolding**: Plop.js (with templates)
+- [ ] **Static analysis**: Dependency Cruiser, Madge
+- [ ] **Git hooks**: Husky + lint-staged
+- [ ] **Commit conventions**: Commitlint + Changesets
+- [ ] **Environment safety**: t3-env
+- [ ] **Type enforcement**: Typestat
+- [ ] **Logging utilities**: Logtape
+- [ ] **SonarQube** (optional)
 
 ---
 
 ## 🎨 Iteration 4 — Base UI Components
-**Goal**: Create a foundation for UI development.  
-- [ ] Build **atomic components** (`components/ui/`)  
-  - Buttons, Inputs, Headings, Modals, Tabs, Alerts, etc.  
-- [ ] Establish **layout patterns** (`components/layouts/`)  
-  - CRUD layouts, dashboard wrappers  
-- [ ] Define **icon & illustration system** (`components/icons/`, `components/illustrations/`)  
-- [ ] Add **status components** (404, empty states, error views)  
+
+**Goal**: Create a foundation for UI development.
+
+- [ ] Build **atomic components** (`components/ui/`)
+  - Buttons, Inputs, Headings, Modals, Tabs, Alerts, etc.
+- [ ] Establish **layout patterns** (`components/layouts/`)
+  - CRUD layouts, dashboard wrappers
+- [ ] Define **icon & illustration system** (`components/icons/`, `components/illustrations/`)
+- [ ] Add **status components** (404, empty states, error views)
 
 ---
 
 ## 📚 Iteration 5 — Example Features
-**Goal**: Provide working examples for new developers.  
-- [ ] Add **demo features** (e.g., Users, Products, Todos)  
-- [ ] Showcase React Query usage (fetch, mutate, invalidate, optimistic updates)  
-- [ ] Showcase forms with React Hook Form + Zod  
-- [ ] Demonstrate component composition patterns  
-- [ ] Demonstrate error boundaries in practice  
+
+**Goal**: Provide working examples for new developers.
+
+- [ ] Add **demo features** (e.g., Users, Products, Todos)
+- [ ] Showcase React Query usage (fetch, mutate, invalidate, optimistic updates)
+- [ ] Showcase forms with React Hook Form + Zod
+- [ ] Demonstrate component composition patterns
+- [ ] Demonstrate error boundaries in practice
 
 ---
 
 ## 🧪 Iteration 6 — Testing
-**Goal**: Introduce testing practices for confidence in code.  
-- [ ] **Unit testing**: Vitest  
-- [ ] **Component testing**: Testing Library + Jest DOM  
-- [ ] **Mocking APIs**: MSW (Mock Service Worker)  
-- [ ] **Accessibility testing**: Storybook a11y addon  
-- [ ] **Interaction testing**: Storybook interactions addon  
+
+**Goal**: Introduce testing practices for confidence in code.
+
+- [ ] **Unit testing**: Vitest
+- [ ] **Component testing**: Testing Library + Jest DOM
+- [ ] **Mocking APIs**: MSW (Mock Service Worker)
+- [ ] **Accessibility testing**: Storybook a11y addon
+- [ ] **Interaction testing**: Storybook interactions addon
 
 ---
 
 ## 📖 Iteration 7 — Developer Experience & Documentation Automation
-**Goal**: Make the project self-documenting and easy to learn.  
-- [ ] **Typedoc** (autogenerated API docs from TypeScript)  
-- [ ] **Storybook Docs Mode** for interactive documentation  
-- [ ] **Cheat sheets** for common flows:  
-  - Error handling  
-  - React Query patterns  
-  - Zustand state patterns  
+
+**Goal**: Make the project self-documenting and easy to learn.
+
+- [ ] **Typedoc** (autogenerated API docs from TypeScript)
+- [ ] **Storybook Docs Mode** for interactive documentation
+- [ ] **Cheat sheets** for common flows:
+  - Error handling
+  - React Query patterns
+  - Zustand state patterns
 
 ---
 
 ## ⚙️ Iteration 8 — CI/CD & Quality Gates
-**Goal**: Automate checks and feedback loops.  
-- [ ] **CI pipeline** (GitHub Actions or similar): lint, type-check, test on PRs  
-- [ ] **Preview deployments** (Vercel/Netlify) per PR  
-- [ ] **Bundle size check** with Webpack Bundle Analyzer  
+
+**Goal**: Automate checks and feedback loops.
+
+- [ ] **CI pipeline** (GitHub Actions or similar): lint, type-check, test on PRs
+- [ ] **Preview deployments** (Vercel/Netlify) per PR
+- [ ] **Bundle size check** with Webpack Bundle Analyzer
 
 ---
 
 ## ✨ Iteration 9 — Polish
-**Goal**: Refine developer tooling and project visibility.  
-- [ ] Fine-tune **ESLint rules** and **tsconfig.json**  
-- [ ] Expand **Plop.js templates** (features, hooks, utils)  
-- [ ] Add **bundle analyzer reports**  
-- [ ] Add **dependency graphs** (Madge/Dependency Cruiser)  
+
+**Goal**: Refine developer tooling and project visibility.
+
+- [ ] Fine-tune **ESLint rules** and **tsconfig.json**
+- [ ] Expand **Plop.js templates** (features, hooks, utils)
+- [ ] Add **bundle analyzer reports**
+- [ ] Add **dependency graphs** (Madge/Dependency Cruiser)
 
 ---
 
 ## 🔮 Future Iterations
-**Goal**: Long-term enhancements and advanced practices.  
-- [ ] **Monitoring & Observability** (frontend if needed)  
-- [ ] **Advanced Security**: audit for XSS, CSRF, secrets  
-- [ ] **Monorepo support**: Nx/Turborepo if scaling  
-- [ ] **Design system extraction**: package UI components into separate library  
+
+**Goal**: Long-term enhancements and advanced practices.
+
+- [ ] **Monitoring & Observability** (frontend if needed)
+- [ ] **Advanced Security**: audit for XSS, CSRF, secrets
+- [ ] **Monorepo support**: Nx/Turborepo if scaling
+- [ ] **Design system extraction**: package UI components into separate library
