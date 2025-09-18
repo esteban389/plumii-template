@@ -6,9 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "lint:fix": "esling --fix",
-    "types:check": "tsc --project tsconfig.json --pretty --noEmit",
+    "check:lint": "eslint",
+    "fix:lint": "esling --fix",
+    "check:types": "tsc --project tsconfig.json --pretty --noEmit",
     "generate": "plop"
   },
   "dependencies": {

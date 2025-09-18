@@ -1,4 +1,5 @@
 import antfu from '@antfu/eslint-config'
+import pluginQuery from '@tanstack/eslint-plugin-query'
 
 export default antfu({
   formatters: true,
@@ -7,6 +8,16 @@ export default antfu({
   ignores: [
     'node_modules/*',
     'templates/*',
-],
-plugins:['check-file']
+  ],
+  rules: {
+    '@tanstack/query/exhaustive-deps': 'error',
+    '@tanstack/query/stable-query-client': 'error',
+    '@tanstack/query/no-rest-destructuring': 'error',
+    '@tanstack/query/no-unstable-deps': 'error',
+    '@tanstack/query/infinite-query-property-order': 'error',
+    '@tanstack/query/no-void-query-fn': 'error',
+  },
+  plugins: {
+    '@tanstack/query': pluginQuery,
+  },
 })
